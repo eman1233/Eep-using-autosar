@@ -1,0 +1,161 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: r g, n, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\inter\Desktop\autosar\eep\main.uvprojx
+Project File Date:  12/08/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+Eep_PBcfg.c(2): warning: In file included from...
+./Eep.h(6): warning: In file included from...
+./Platform_Types.h(8): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep_PBcfg.c(2): warning: In file included from...
+./Eep.h(7): warning: In file included from...
+./MemIf.h(22): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep_PBcfg.c(2): warning: In file included from...
+./Eep.h(26): warning: empty struct has size 0 in C, size 1 in C++ [-Wc++-compat]
+typedef struct{
+        ^
+./Eep.h(26): warning: empty struct is a GNU extension [-Wgnu-empty-struct]
+Eep_PBcfg.c(15): error: initializer element is not a compile-time constant
+        .EEP_JOB_END_NOTIFICATION=Eep_JobEndNotification,
+                                  ^~~~~~~~~~~~~~~~~~~~~~
+Eep_PBcfg.c(3): warning: In file included from...
+./Eep_Cbk.h(3): warning: no previous extern declaration for non-static variable 'Eep_JobErrorNotification' [-Wmissing-variable-declarations]
+void (*Eep_JobErrorNotification)(void);
+       ^
+./Eep_Cbk.h(3): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+void (*Eep_JobErrorNotification)(void);
+^
+./Eep_Cbk.h(4): warning: no previous extern declaration for non-static variable 'Eep_JobEndNotification' [-Wmissing-variable-declarations]
+void (*Eep_JobEndNotification)(void);
+       ^
+./Eep_Cbk.h(4): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+void (*Eep_JobEndNotification)(void);
+^
+6 warnings and 1 error generated.
+compiling Eep_PBcfg.c...
+Eep.c(2): warning: In file included from...
+./Eep.h(6): warning: In file included from...
+./Platform_Types.h(8): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep.c(2): warning: In file included from...
+./Eep.h(7): warning: In file included from...
+./MemIf.h(22): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep.c(2): warning: In file included from...
+./Eep.h(26): warning: empty struct has size 0 in C, size 1 in C++ [-Wc++-compat]
+typedef struct{
+        ^
+./Eep.h(26): warning: empty struct is a GNU extension [-Wgnu-empty-struct]
+Eep.c(4): warning: In file included from...
+./Det.h(4): error: unknown type name 'Std_ReturnType'
+Std_ReturnType Det_ReportError(uint16_t ModuleId, uint8_t InstanceId, uint8_t ApiId, uint8_t ErrorId);
+^
+Eep.c(3): warning: In file included from...
+./Eep_Cbk.h(3): warning: no previous extern declaration for non-static variable 'Eep_JobErrorNotification' [-Wmissing-variable-declarations]
+void (*Eep_JobErrorNotification)(void);
+       ^
+./Eep_Cbk.h(3): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+void (*Eep_JobErrorNotification)(void);
+^
+./Eep_Cbk.h(4): warning: no previous extern declaration for non-static variable 'Eep_JobEndNotification' [-Wmissing-variable-declarations]
+void (*Eep_JobEndNotification)(void);
+       ^
+./Eep_Cbk.h(4): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+void (*Eep_JobEndNotification)(void);
+^
+6 warnings and 1 error generated.
+compiling Eep.c...
+Eep_Lcfg.c(2): warning: In file included from...
+./Eep.h(6): warning: In file included from...
+./Platform_Types.h(8): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep_Lcfg.c(2): warning: In file included from...
+./Eep.h(7): warning: In file included from...
+./MemIf.h(22): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep_Lcfg.c(2): warning: In file included from...
+./Eep.h(26): warning: empty struct has size 0 in C, size 1 in C++ [-Wc++-compat]
+typedef struct{
+        ^
+./Eep.h(26): warning: empty struct is a GNU extension [-Wgnu-empty-struct]
+Eep_Lcfg.c(3): warning: In file included from...
+./Eep_Cbk.h(3): warning: no previous extern declaration for non-static variable 'Eep_JobErrorNotification' [-Wmissing-variable-declarations]
+void (*Eep_JobErrorNotification)(void);
+       ^
+./Eep_Cbk.h(3): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+void (*Eep_JobErrorNotification)(void);
+^
+./Eep_Cbk.h(4): warning: no previous extern declaration for non-static variable 'Eep_JobEndNotification' [-Wmissing-variable-declarations]
+void (*Eep_JobEndNotification)(void);
+       ^
+./Eep_Cbk.h(4): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+void (*Eep_JobEndNotification)(void);
+^
+6 warnings generated.
+compiling Eep_Lcfg.c...
+Eep_Irq.c(2): warning: In file included from...
+./Eep.h(6): warning: In file included from...
+./Platform_Types.h(8): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep_Irq.c(2): warning: In file included from...
+./Eep.h(7): warning: In file included from...
+./MemIf.h(22): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+Eep_Irq.c(2): warning: In file included from...
+./Eep.h(26): warning: empty struct has size 0 in C, size 1 in C++ [-Wc++-compat]
+typedef struct{
+        ^
+./Eep.h(26): warning: empty struct is a GNU extension [-Wgnu-empty-struct]
+4 warnings generated.
+compiling Eep_Irq.c...
+".\Objects\main.axf" - 2 Error(s), 22 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\inter\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
